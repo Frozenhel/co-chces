@@ -1,0 +1,12 @@
+.chleba {
+  background-color: lightsteelblue;
+  height: 2rem;
+
+  &:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+
+  &--active {
+    background-color: blue;
+  }
+}
